@@ -1,0 +1,11 @@
+query unapprovedPosts {
+	posts(approved: false) {
+		_id
+		content
+		title
+		approved
+		author {
+			name
+		}
+	}
+}

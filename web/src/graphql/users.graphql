@@ -1,0 +1,11 @@
+query Users{
+    users {
+        email
+    }
+}
+
+query UsersPublic {
+    users {
+        email
+    }
+}

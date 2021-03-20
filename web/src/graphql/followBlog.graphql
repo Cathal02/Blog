@@ -1,0 +1,6 @@
+mutation addFollower($userId: String!, $blogId: String!) {
+	addFollower(userId: $userId, blogId: $blogId) {
+		success
+		message
+	}
+}

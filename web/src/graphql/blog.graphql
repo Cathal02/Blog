@@ -1,0 +1,14 @@
+query blog($_id: String!) {
+	blog(_id: $_id) {
+		name
+		posts {
+			title
+			_id
+		}
+		author {
+			name
+			_id
+		}
+		_id
+	}
+}

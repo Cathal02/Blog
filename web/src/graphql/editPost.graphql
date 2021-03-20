@@ -1,0 +1,6 @@
+mutation EditPost($postId: String!, $post: PostInput!) {
+	editPost(postId: $postId, newPost: $post) {
+		message
+		success
+	}
+}

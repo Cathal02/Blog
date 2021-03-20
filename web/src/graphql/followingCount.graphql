@@ -1,0 +1,3 @@
+query followingCount($_id: String!) {
+	followingCount(_id: $_id)
+}

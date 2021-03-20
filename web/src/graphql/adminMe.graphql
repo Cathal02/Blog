@@ -1,0 +1,7 @@
+query adminMe {
+	me {
+		email
+		_id
+		admin
+	}
+}

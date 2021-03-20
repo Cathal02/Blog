@@ -1,0 +1,7 @@
+
+query following($_id: String!) {
+	following(_id: $_id) {
+		_id
+		name
+	}
+}

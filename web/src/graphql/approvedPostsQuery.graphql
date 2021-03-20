@@ -1,0 +1,11 @@
+query ApprovedPosts {
+	posts(approved: true) {
+		content
+		title
+		author {
+			name
+			_id
+		}
+		_id
+	}
+}

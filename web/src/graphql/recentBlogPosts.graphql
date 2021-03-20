@@ -1,0 +1,6 @@
+query recentBlogPosts($_id: String!, $amount: Int!) {
+	recentBlogPosts(_id: $_id, amount: $amount) {
+		title
+		content
+	}
+}

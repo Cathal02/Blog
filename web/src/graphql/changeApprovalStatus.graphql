@@ -1,0 +1,8 @@
+mutation ChangeApprovalStatus($postId: String!, $approved: Boolean!) {
+	changeApprovalStatus(postId: $postId, approved: $approved) {
+		success
+		message
+		postId
+		approved
+	}
+}

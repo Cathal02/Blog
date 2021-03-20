@@ -1,0 +1,11 @@
+query Post($id: String!) {
+	post(postId: $id) {
+		_id
+		title
+		content
+		author {
+			name
+			_id
+		}
+	}
+}

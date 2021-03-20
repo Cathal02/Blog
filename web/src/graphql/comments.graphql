@@ -1,0 +1,10 @@
+query Comments($postId: String!) {
+	comments(postId: $postId) {
+		content
+		author {
+			name
+			_id
+		}
+		_id
+	}
+}

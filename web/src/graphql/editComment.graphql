@@ -1,0 +1,6 @@
+mutation EditComment($commentId: String!, $updatedContent: String!) {
+	editComment(commentId: $commentId, updatedContent: $updatedContent) {
+		success
+		message
+	}
+}
